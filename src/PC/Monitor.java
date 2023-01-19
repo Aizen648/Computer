@@ -1,0 +1,22 @@
+package PC;
+
+public class Monitor {
+    private int width = 1920;
+    private int height= 1080;
+    public void setLowResolution(){
+        width=800;
+        height=600;
+    }
+    public void setHighResolution(){
+        width=3840;
+        height=1920;
+    }
+    public void setMediumResolution(){
+        width=1920;
+        height=1080;
+    }
+    public String getResolution(){
+        return width + "x" + height;
+    }
+
+}
